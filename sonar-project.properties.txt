@@ -1,0 +1,17 @@
+#Project identification 
+
+sonar.projectKey=PowerToys
+sonar.projectVersion=1.0
+sonar.projectName=PowerToys
+sonar.host.url=http://localhost:9000
+#Info required for Sonar
+
+sonar.sources=.
+
+sonar.language=js,csharp
+
+#Core C# Settings sonar.dotnet.visualstudio.solution.file=PowerToys.sln
+sonar.dotnet.4.0.sdk.directory=C:/WIndows/Microsoft.NET/Framework/v4.0.30319
+sonar.dotnet.version=4.0
+sonar.dotnet.excludeGeneratedCode=true
+
